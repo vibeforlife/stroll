@@ -1625,473 +1625,1749 @@
     "country": "Turkey"
   },
   {
-    "city": "Cairo",
-    "tourId": "cairo-tour-a",
-    "tourName": "Origins & Eternity (Giza Plateau)",
-    "durationHours": 3,
+    "id": "sanjosecr-tour-a",
+    "name": "Downtown Heartbeat: Gold, Coffee & Street Life",
+    "description": "A tight downtown loop: plaza → theater → market → parks → pedestrian pulse. San José’s everyday heartbeat.",
+    "center": [
+      9.933491017952685,
+      -84.07882315207796
+    ],
+    "line": [
+      [
+        9.9336122,
+        -84.0770933
+      ],
+      [
+        9.933258333333333,
+        -84.07764444444445
+      ],
+      [
+        9.934444,
+        -84.081944
+      ],
+      [
+        9.9328876,
+        -84.0797672
+      ],
+      [
+        9.932542236779899,
+        -84.07875037565691
+      ],
+      [
+        9.934080555555555,
+        -84.07946944444444
+      ],
+      [
+        9.9336122,
+        -84.0770933
+      ]
+    ],
     "stops": [
       {
-        "stopId": "cairo-a-01",
-        "title": "Giza Plateau Entrance / Orientation",
-        "lat": 29.97648,
-        "lng": 31.131302,
-        "script": "cairo_tourA_stop01.txt"
-      },
-      {
-        "stopId": "cairo-a-02",
-        "title": "Great Pyramid (Khufu)",
-        "lat": 29.9792458,
-        "lng": 31.1342,
-        "script": "cairo_tourA_stop02.txt"
-      },
-      {
-        "stopId": "cairo-a-03",
-        "title": "Pyramid of Khafre",
-        "lat": 29.97611,
-        "lng": 31.13083,
-        "script": "cairo_tourA_stop03.txt"
-      },
-      {
-        "stopId": "cairo-a-04",
-        "title": "Great Sphinx",
-        "lat": 29.9718,
-        "lng": 31.136,
-        "script": "cairo_tourA_stop04.txt"
-      },
-      {
-        "stopId": "cairo-a-05",
-        "title": "Panorama Point (Giza Viewpoint)",
-        "lat": 29.977704,
-        "lng": 31.131818,
-        "script": "cairo_tourA_stop05.txt"
-      },
-      {
-        "stopId": "cairo-a-06",
-        "title": "Valley Temple of Khafre",
-        "lat": 29.9747367,
-        "lng": 31.1383572,
-        "script": "cairo_tourA_stop06.txt"
-      }
-    ]
-  },
-  {
-    "city": "Cairo",
-    "tourId": "cairo-tour-b",
-    "tourName": "Power, Faith & Continuity (Islamic Cairo)",
-    "durationHours": 3,
-    "stops": [
-      {
-        "stopId": "cairo-b-01",
-        "title": "Bab Zuweila",
-        "lat": 30.0428,
-        "lng": 31.2578,
-        "script": "cairo_tourB_stop01.txt"
-      },
-      {
-        "stopId": "cairo-b-02",
-        "title": "Al-Muizz Street (central section)",
-        "lat": 30.0466,
-        "lng": 31.2519,
-        "script": "cairo_tourB_stop02.txt"
-      },
-      {
-        "stopId": "cairo-b-03",
-        "title": "Al-Hakim Mosque",
-        "lat": 30.054475,
-        "lng": 31.263772,
-        "script": "cairo_tourB_stop03.txt"
-      },
-      {
-        "stopId": "cairo-b-04",
-        "title": "Bayt al-Suhaymi",
-        "lat": 30.052222,
-        "lng": 31.2625,
-        "script": "cairo_tourB_stop04.txt"
-      },
-      {
-        "stopId": "cairo-b-05",
-        "title": "Khan el-Khalili",
-        "lat": 30.0475,
-        "lng": 31.26222,
-        "script": "cairo_tourB_stop05.txt"
-      },
-      {
-        "stopId": "cairo-b-06",
-        "title": "Al-Azhar Mosque",
-        "lat": 30.045833,
-        "lng": 31.262778,
-        "script": "cairo_tourB_stop06.txt"
-      }
-    ]
-  },
-  {
-    "city": "Cairo",
-    "tourId": "cairo-tour-c",
-    "tourName": "Nile, Nation & Modern Lives",
-    "durationHours": 2,
-    "stops": [
-      {
-        "stopId": "cairo-c-01",
-        "title": "Tahrir Square",
-        "lat": 30.0444,
-        "lng": 31.2357,
-        "script": "cairo_tourC_stop01.txt"
-      },
-      {
-        "stopId": "cairo-c-02",
-        "title": "The Egyptian Museum (exterior)",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourC_stop02.txt"
-      },
-      {
-        "stopId": "cairo-c-03",
-        "title": "Qasr El Nil Bridge (east approach)",
-        "lat": 30.04374,
-        "lng": 31.22967,
-        "script": "cairo_tourC_stop03.txt"
-      },
-      {
-        "stopId": "cairo-c-04",
-        "title": "Nile Corniche (central downtown stretch)",
-        "lat": 30.042778,
-        "lng": 31.232222,
-        "script": "cairo_tourC_stop04.txt"
-      },
-      {
-        "stopId": "cairo-c-05",
-        "title": "Cairo Tower",
-        "lat": 30.045916,
-        "lng": 31.224291,
-        "script": "cairo_tourC_stop05.txt"
-      }
-    ]
-  },
-  {
-    "city": "Cairo",
-    "tourId": "cairo-tour-d",
-    "tourName": "Lives, Death & Meaning (Egyptian Museum – Interior)",
-    "durationHours": 3,
-    "stops": [
-      {
-        "stopId": "cairo-d-01",
-        "title": "Orientation + Narmer Palette",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop01.txt"
-      },
-      {
-        "stopId": "cairo-d-02",
-        "title": "Statue of Khafre",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop02.txt"
-      },
-      {
-        "stopId": "cairo-d-03",
-        "title": "Old Kingdom reliefs",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop03.txt"
-      },
-      {
-        "stopId": "cairo-d-04",
-        "title": "The Scribes",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop04.txt"
-      },
-      {
-        "stopId": "cairo-d-05",
-        "title": "Middle Kingdom statues",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop05.txt"
-      },
-      {
-        "stopId": "cairo-d-06",
-        "title": "Akhenaten & the Aten",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop06.txt"
-      },
-      {
-        "stopId": "cairo-d-07",
-        "title": "Amarna family reliefs",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop07.txt"
-      },
-      {
-        "stopId": "cairo-d-08",
-        "title": "Everyday life objects",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop08.txt"
-      },
-      {
-        "stopId": "cairo-d-09",
-        "title": "Tutankhamun’s mask",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop09.txt"
-      },
-      {
-        "stopId": "cairo-d-10",
-        "title": "Tutankhamun’s nested coffins",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop10.txt"
-      },
-      {
-        "stopId": "cairo-d-11",
-        "title": "Canopic jars",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop11.txt"
-      },
-      {
-        "stopId": "cairo-d-12",
-        "title": "Animal mummies",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop12.txt"
-      },
-      {
-        "stopId": "cairo-d-13",
-        "title": "Royal mummies",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop13.txt"
-      },
-      {
-        "stopId": "cairo-d-14",
-        "title": "Unfinished statues",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop14.txt"
-      },
-      {
-        "stopId": "cairo-d-15",
-        "title": "Exit hall reflection",
-        "lat": 30.047503,
-        "lng": 31.233702,
-        "script": "cairo_tourD_stop15.txt"
-      }
-    ]
-  },
-  {
-    "city": "San José",
-    "tourId": "sanjosecr-tour-a",
-    "tourName": "Downtown Heartbeat: Gold, Coffee & Street Life",
-    "durationHours": 3,
-    "stops": [
-      {
-        "stopId": "sanjosecr-a-01",
+        "id": "sanjosecr-a-01",
         "title": "Plaza de la Cultura (Orientation)",
+        "location": "Downtown",
         "lat": 9.9336122,
         "lng": -84.0770933,
-        "script": "sanjosecr_tourA_stop01.txt"
+        "walkFromPrevMin": 0,
+        "tags": [
+          "civic"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourA_stop01.txt"
       },
       {
-        "stopId": "sanjosecr-a-02",
+        "id": "sanjosecr-a-02",
         "title": "Teatro Nacional (Exterior & Story)",
+        "location": "Downtown",
         "lat": 9.933258333333333,
         "lng": -84.07764444444445,
-        "script": "sanjosecr_tourA_stop02.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "culture"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourA_stop02.txt"
       },
       {
-        "stopId": "sanjosecr-a-03",
+        "id": "sanjosecr-a-03",
         "title": "Mercado Central (Market Life)",
+        "location": "Downtown",
         "lat": 9.934444,
         "lng": -84.081944,
-        "script": "sanjosecr_tourA_stop03.txt"
+        "walkFromPrevMin": 6,
+        "tags": [
+          "food"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourA_stop03.txt"
       },
       {
-        "stopId": "sanjosecr-a-04",
+        "id": "sanjosecr-a-04",
         "title": "Parque Central (City Breather)",
+        "location": "Downtown",
         "lat": 9.9328876,
         "lng": -84.0797672,
-        "script": "sanjosecr_tourA_stop04.txt"
+        "walkFromPrevMin": 4,
+        "tags": [
+          "park"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourA_stop04.txt"
       },
       {
-        "stopId": "sanjosecr-a-05",
+        "id": "sanjosecr-a-05",
         "title": "Metropolitan Cathedral Area",
+        "location": "Downtown",
         "lat": 9.932542236779899,
         "lng": -84.07875037565691,
-        "script": "sanjosecr_tourA_stop05.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourA_stop05.txt"
       },
       {
-        "stopId": "sanjosecr-a-06",
+        "id": "sanjosecr-a-06",
         "title": "Avenida Central (Pedestrian Pulse)",
+        "location": "Downtown",
         "lat": 9.934080555555555,
         "lng": -84.07946944444444,
-        "script": "sanjosecr_tourA_stop06.txt"
+        "walkFromPrevMin": 2,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourA_stop06.txt"
       },
       {
-        "stopId": "sanjosecr-a-07",
+        "id": "sanjosecr-a-07",
         "title": "Coffee Pause (Downtown Café)",
+        "location": "San José (downtown)",
         "lat": 9.9336122,
         "lng": -84.0770933,
-        "script": "sanjosecr_tourA_stop07.txt"
+        "walkFromPrevMin": 3,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourA_stop07.txt"
       }
-    ]
+    ],
+    "city": "San José",
+    "country": "Costa Rica"
   },
   {
-    "city": "San José",
-    "tourId": "sanjosecr-tour-b",
-    "tourName": "Old San José: Mansions, Parks & Civic Squares",
-    "durationHours": 3,
+    "id": "sanjosecr-tour-b",
+    "name": "Old San José: Mansions, Parks & Civic Squares",
+    "description": "Civic identity on foot: democracy, memory, and the institutions that replaced force with debate.",
+    "center": [
+      9.934800525925924,
+      -84.07713659074075
+    ],
+    "line": [
+      [
+        9.93835,
+        -84.0767
+      ],
+      [
+        9.9355298,
+        -84.0753942
+      ],
+      [
+        9.9336122,
+        -84.0770933
+      ],
+      [
+        9.934080555555555,
+        -84.07946944444444
+      ],
+      [
+        9.934444,
+        -84.081944
+      ],
+      [
+        9.9327866,
+        -84.0722186
+      ]
+    ],
     "stops": [
       {
-        "stopId": "sanjosecr-b-01",
+        "id": "sanjosecr-b-01",
         "title": "Barrio Amón (Heritage Streets)",
+        "location": "Barrio Amón",
         "lat": 9.93835,
         "lng": -84.0767,
-        "script": "sanjosecr_tourB_stop01.txt"
+        "walkFromPrevMin": 0,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourB_stop01.txt"
       },
       {
-        "stopId": "sanjosecr-b-02",
+        "id": "sanjosecr-b-02",
         "title": "Parque Morazán (Temple of Music)",
+        "location": "Downtown",
         "lat": 9.9355298,
         "lng": -84.0753942,
-        "script": "sanjosecr_tourB_stop02.txt"
+        "walkFromPrevMin": 4,
+        "tags": [
+          "park"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourB_stop02.txt"
       },
       {
-        "stopId": "sanjosecr-b-03",
+        "id": "sanjosecr-b-03",
         "title": "Pre‑Columbian Gold Museum (Under the Plaza)",
+        "location": "San José (downtown)",
         "lat": 9.9336122,
         "lng": -84.0770933,
-        "script": "sanjosecr_tourB_stop03.txt"
+        "walkFromPrevMin": 4,
+        "tags": [
+          "civic"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourB_stop03.txt"
       },
       {
-        "stopId": "sanjosecr-b-04",
+        "id": "sanjosecr-b-04",
         "title": "Avenida Central (Public Life)",
+        "location": "Downtown",
         "lat": 9.934080555555555,
         "lng": -84.07946944444444,
-        "script": "sanjosecr_tourB_stop04.txt"
+        "walkFromPrevMin": 3,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourB_stop04.txt"
       },
       {
-        "stopId": "sanjosecr-b-05",
+        "id": "sanjosecr-b-05",
         "title": "Soda Culture (Casado Break)",
+        "location": "San José (downtown)",
         "lat": 9.934444,
         "lng": -84.081944,
-        "script": "sanjosecr_tourB_stop05.txt"
+        "walkFromPrevMin": 3,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourB_stop05.txt"
       },
       {
-        "stopId": "sanjosecr-b-06",
+        "id": "sanjosecr-b-06",
         "title": "Plaza de la Democracia (Civic Doorstep)",
+        "location": "East of downtown",
         "lat": 9.9327866,
         "lng": -84.0722186,
-        "script": "sanjosecr_tourB_stop06.txt"
+        "walkFromPrevMin": 14,
+        "tags": [
+          "civic"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourB_stop06.txt"
       }
-    ]
+    ],
+    "city": "San José",
+    "country": "Costa Rica"
   },
   {
-    "city": "San José",
-    "tourId": "sanjosecr-tour-c",
-    "tourName": "La Sabana: The City’s Lungs & Modern Identity",
-    "durationHours": 3,
+    "id": "sanjosecr-tour-c",
+    "name": "La Sabana: The City’s Lungs & Modern Identity",
+    "description": "La Sabana’s green reset: lagoon calm → stadium spectacle → art in an old airport terminal.",
+    "center": [
+      9.935689422367147,
+      -84.10126916539414
+    ],
+    "line": [
+      [
+        9.93598903727858,
+        -84.10082527565692
+      ],
+      [
+        9.9352,
+        -84.1047
+      ],
+      [
+        9.93598903727858,
+        -84.10082527565692
+      ],
+      [
+        9.93528,
+        -84.09917
+      ],
+      [
+        9.93598903727858,
+        -84.10082527565692
+      ]
+    ],
     "stops": [
       {
-        "stopId": "sanjosecr-c-01",
+        "id": "sanjosecr-c-01",
         "title": "Parque Metropolitano La Sabana (Orientation)",
+        "location": "La Sabana",
         "lat": 9.93598903727858,
         "lng": -84.10082527565692,
-        "script": "sanjosecr_tourC_stop01.txt"
+        "walkFromPrevMin": 0,
+        "tags": [
+          "park"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourC_stop01.txt"
       },
       {
-        "stopId": "sanjosecr-c-02",
+        "id": "sanjosecr-c-02",
         "title": "Estadio Nacional (Pride & Ritual)",
+        "location": "La Sabana",
         "lat": 9.9352,
         "lng": -84.1047,
-        "script": "sanjosecr_tourC_stop02.txt"
+        "walkFromPrevMin": 5,
+        "tags": [
+          "landmark"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourC_stop02.txt"
       },
       {
-        "stopId": "sanjosecr-c-03",
+        "id": "sanjosecr-c-03",
         "title": "Open Lawns & Lake Zone (Weekend San José)",
+        "location": "San José (downtown)",
         "lat": 9.93598903727858,
         "lng": -84.10082527565692,
-        "script": "sanjosecr_tourC_stop03.txt"
+        "walkFromPrevMin": 5,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourC_stop03.txt"
       },
       {
-        "stopId": "sanjosecr-c-04",
+        "id": "sanjosecr-c-04",
         "title": "Museo de Arte Costarricense (Old Airport Building)",
+        "location": "La Sabana",
         "lat": 9.93528,
         "lng": -84.09917,
-        "script": "sanjosecr_tourC_stop04.txt"
+        "walkFromPrevMin": 2,
+        "tags": [
+          "museum"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourC_stop04.txt"
       },
       {
-        "stopId": "sanjosecr-c-05",
+        "id": "sanjosecr-c-05",
         "title": "Quiet Edge Walk (Sunset Breather)",
+        "location": "San José (downtown)",
         "lat": 9.93598903727858,
         "lng": -84.10082527565692,
-        "script": "sanjosecr_tourC_stop05.txt"
+        "walkFromPrevMin": 2,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourC_stop05.txt"
       }
-    ]
+    ],
+    "city": "San José",
+    "country": "Costa Rica"
   },
   {
-    "city": "San José",
-    "tourId": "sanjosecr-tour-d",
-    "tourName": "Museo del Jade: A 3‑Hour Inside Tour (Short Stops)",
-    "durationHours": 3,
+    "id": "sanjosecr-tour-d",
+    "name": "Museo del Jade: A 3‑Hour Inside Tour (Short Stops)",
+    "description": "Inside the Museo Nacional: fortress scars, pre-Columbian roots, export-era work, and the 1948 turning point.",
+    "center": [
+      9.933123825000001,
+      -84.07273695
+    ],
+    "line": [
+      [
+        9.933172,
+        -84.072811
+      ],
+      [
+        9.933172,
+        -84.072811
+      ],
+      [
+        9.933172,
+        -84.072811
+      ],
+      [
+        9.933172,
+        -84.072811
+      ],
+      [
+        9.933172,
+        -84.072811
+      ],
+      [
+        9.933172,
+        -84.072811
+      ],
+      [
+        9.9327866,
+        -84.0722186
+      ],
+      [
+        9.933172,
+        -84.072811
+      ]
+    ],
     "stops": [
       {
-        "stopId": "sanjosecr-d-01",
+        "id": "sanjosecr-d-01",
         "title": "Entrance & Orientation (Slow Down)",
+        "location": "San José (downtown)",
         "lat": 9.933172,
         "lng": -84.072811,
-        "script": "sanjosecr_tourD_stop01.txt"
+        "walkFromPrevMin": 0,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop01.txt"
       },
       {
-        "stopId": "sanjosecr-d-02",
+        "id": "sanjosecr-d-02",
         "title": "Early Jade Pendants & Figures",
+        "location": "San José (downtown)",
         "lat": 9.933172,
         "lng": -84.072811,
-        "script": "sanjosecr_tourD_stop02.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop02.txt"
       },
       {
-        "stopId": "sanjosecr-d-03",
+        "id": "sanjosecr-d-03",
         "title": "Stone Spheres Gallery",
+        "location": "San José (downtown)",
         "lat": 9.933172,
         "lng": -84.072811,
-        "script": "sanjosecr_tourD_stop03.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop03.txt"
       },
       {
-        "stopId": "sanjosecr-d-04",
+        "id": "sanjosecr-d-04",
         "title": "Gold Gallery (Collision of Worlds)",
+        "location": "San José (downtown)",
         "lat": 9.933172,
         "lng": -84.072811,
-        "script": "sanjosecr_tourD_stop04.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop04.txt"
       },
       {
-        "stopId": "sanjosecr-d-05",
+        "id": "sanjosecr-d-05",
         "title": "Metates (Sacred Everyday Tools)",
+        "location": "San José (downtown)",
         "lat": 9.933172,
         "lng": -84.072811,
-        "script": "sanjosecr_tourD_stop05.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop05.txt"
       },
       {
-        "stopId": "sanjosecr-d-06",
+        "id": "sanjosecr-d-06",
         "title": "Burial Practices & Reconstruction",
+        "location": "San José (downtown)",
         "lat": 9.933172,
         "lng": -84.072811,
-        "script": "sanjosecr_tourD_stop06.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop06.txt"
       },
       {
-        "stopId": "sanjosecr-d-07",
+        "id": "sanjosecr-d-07",
         "title": "Balcony View: Past Inside, Democracy Outside",
+        "location": "San José (downtown)",
         "lat": 9.9327866,
         "lng": -84.0722186,
-        "script": "sanjosecr_tourD_stop07.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop07.txt"
       },
       {
-        "stopId": "sanjosecr-d-08",
+        "id": "sanjosecr-d-08",
         "title": "Exit & Gift Shop (Carry Respect)",
+        "location": "San José (downtown)",
         "lat": 9.933172,
         "lng": -84.072811,
-        "script": "sanjosecr_tourD_stop08.txt"
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Coffee + pastry nearby",
+            "Soda (casado) spot close by"
+          ],
+          "budgetHint": "Hydrate, snack, keep it light—you’ve got stories ahead."
+        },
+        "funFacts": [
+          "This stop is part of San José’s walkable core—short distances, big stories.",
+          "Locals use these spaces daily, not just for sightseeing."
+        ],
+        "scriptFile": "scripts/sanjosecr_tourD_stop08.txt"
       }
-    ]
+    ],
+    "city": "San José",
+    "country": "Costa Rica"
+  },
+  {
+    "id": "cairo-tour-a",
+    "name": "Origins & Eternity (Giza Plateau)",
+    "description": "Giza plateau threshold → pyramids and the choices that built eternity.",
+    "center": [
+      29.976012749999995,
+      31.133751200000003
+    ],
+    "line": [
+      [
+        29.97648,
+        31.131302
+      ],
+      [
+        29.9792458,
+        31.1342
+      ],
+      [
+        29.97611,
+        31.13083
+      ],
+      [
+        29.9718,
+        31.136
+      ],
+      [
+        29.977704,
+        31.131818
+      ],
+      [
+        29.9747367,
+        31.1383572
+      ]
+    ],
+    "stops": [
+      {
+        "id": "cairo-a-01",
+        "title": "Giza Plateau Entrance / Orientation",
+        "location": "Cairo",
+        "lat": 29.97648,
+        "lng": 31.131302,
+        "walkFromPrevMin": 0,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourA_stop01.txt"
+      },
+      {
+        "id": "cairo-a-02",
+        "title": "Great Pyramid (Khufu)",
+        "location": "Cairo",
+        "lat": 29.9792458,
+        "lng": 31.1342,
+        "walkFromPrevMin": 5,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourA_stop02.txt"
+      },
+      {
+        "id": "cairo-a-03",
+        "title": "Pyramid of Khafre",
+        "location": "Cairo",
+        "lat": 29.97611,
+        "lng": 31.13083,
+        "walkFromPrevMin": 6,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourA_stop03.txt"
+      },
+      {
+        "id": "cairo-a-04",
+        "title": "Great Sphinx",
+        "location": "Cairo",
+        "lat": 29.9718,
+        "lng": 31.136,
+        "walkFromPrevMin": 9,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourA_stop04.txt"
+      },
+      {
+        "id": "cairo-a-05",
+        "title": "Panorama Point (Giza Viewpoint)",
+        "location": "Cairo",
+        "lat": 29.977704,
+        "lng": 31.131818,
+        "walkFromPrevMin": 10,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourA_stop05.txt"
+      },
+      {
+        "id": "cairo-a-06",
+        "title": "Valley Temple of Khafre",
+        "location": "Cairo",
+        "lat": 29.9747367,
+        "lng": 31.1383572,
+        "walkFromPrevMin": 9,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourA_stop06.txt"
+      }
+    ],
+    "city": "Cairo",
+    "country": "Egypt"
+  },
+  {
+    "id": "cairo-tour-b",
+    "name": "Power, Faith & Continuity (Islamic Cairo)",
+    "description": "Islamic Cairo: power, faith, and daily life in layered streets.",
+    "center": [
+      30.04823833333333,
+      31.260161666666665
+    ],
+    "line": [
+      [
+        30.0428,
+        31.2578
+      ],
+      [
+        30.0466,
+        31.2519
+      ],
+      [
+        30.054475,
+        31.263772
+      ],
+      [
+        30.052222,
+        31.2625
+      ],
+      [
+        30.0475,
+        31.26222
+      ],
+      [
+        30.045833,
+        31.262778
+      ]
+    ],
+    "stops": [
+      {
+        "id": "cairo-b-01",
+        "title": "Bab Zuweila",
+        "location": "Cairo",
+        "lat": 30.0428,
+        "lng": 31.2578,
+        "walkFromPrevMin": 0,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourB_stop01.txt"
+      },
+      {
+        "id": "cairo-b-02",
+        "title": "Al-Muizz Street (central section)",
+        "location": "Cairo",
+        "lat": 30.0466,
+        "lng": 31.2519,
+        "walkFromPrevMin": 9,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourB_stop02.txt"
+      },
+      {
+        "id": "cairo-b-03",
+        "title": "Al-Hakim Mosque",
+        "location": "Cairo",
+        "lat": 30.054475,
+        "lng": 31.263772,
+        "walkFromPrevMin": 18,
+        "tags": [
+          "history",
+          "culture"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourB_stop03.txt"
+      },
+      {
+        "id": "cairo-b-04",
+        "title": "Bayt al-Suhaymi",
+        "location": "Cairo",
+        "lat": 30.052222,
+        "lng": 31.2625,
+        "walkFromPrevMin": 3,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourB_stop04.txt"
+      },
+      {
+        "id": "cairo-b-05",
+        "title": "Khan el-Khalili",
+        "location": "Cairo",
+        "lat": 30.0475,
+        "lng": 31.26222,
+        "walkFromPrevMin": 7,
+        "tags": [
+          "food"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourB_stop05.txt"
+      },
+      {
+        "id": "cairo-b-06",
+        "title": "Al-Azhar Mosque",
+        "location": "Cairo",
+        "lat": 30.045833,
+        "lng": 31.262778,
+        "walkFromPrevMin": 2,
+        "tags": [
+          "history",
+          "culture"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourB_stop06.txt"
+      }
+    ],
+    "city": "Cairo",
+    "country": "Egypt"
+  },
+  {
+    "id": "cairo-tour-c",
+    "name": "Nile, Nation & Modern Lives",
+    "description": "Nile and modern Cairo: nationhood, river rhythms, and lived stories.",
+    "center": [
+      30.044867399999998,
+      31.231117
+    ],
+    "line": [
+      [
+        30.0444,
+        31.2357
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.04374,
+        31.22967
+      ],
+      [
+        30.042778,
+        31.232222
+      ],
+      [
+        30.045916,
+        31.224291
+      ]
+    ],
+    "stops": [
+      {
+        "id": "cairo-c-01",
+        "title": "Tahrir Square",
+        "location": "Cairo",
+        "lat": 30.0444,
+        "lng": 31.2357,
+        "walkFromPrevMin": 0,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourC_stop01.txt"
+      },
+      {
+        "id": "cairo-c-02",
+        "title": "The Egyptian Museum (exterior)",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 5,
+        "tags": [
+          "history"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourC_stop02.txt"
+      },
+      {
+        "id": "cairo-c-03",
+        "title": "Qasr El Nil Bridge (east approach)",
+        "location": "Cairo",
+        "lat": 30.04374,
+        "lng": 31.22967,
+        "walkFromPrevMin": 7,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourC_stop03.txt"
+      },
+      {
+        "id": "cairo-c-04",
+        "title": "Nile Corniche (central downtown stretch)",
+        "location": "Cairo",
+        "lat": 30.042778,
+        "lng": 31.232222,
+        "walkFromPrevMin": 3,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourC_stop04.txt"
+      },
+      {
+        "id": "cairo-c-05",
+        "title": "Cairo Tower",
+        "location": "Cairo",
+        "lat": 30.045916,
+        "lng": 31.224291,
+        "walkFromPrevMin": 10,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourC_stop05.txt"
+      }
+    ],
+    "city": "Cairo",
+    "country": "Egypt"
+  },
+  {
+    "id": "cairo-tour-d",
+    "name": "Lives, Death & Meaning (Egyptian Museum – Interior)",
+    "description": "Egyptian Museum inside tour: shorter stops through key galleries and icons.",
+    "center": [
+      30.047503000000003,
+      31.233701999999997
+    ],
+    "line": [
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ],
+      [
+        30.047503,
+        31.233702
+      ]
+    ],
+    "stops": [
+      {
+        "id": "cairo-d-01",
+        "title": "Orientation + Narmer Palette",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 0,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop01.txt"
+      },
+      {
+        "id": "cairo-d-02",
+        "title": "Statue of Khafre",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop02.txt"
+      },
+      {
+        "id": "cairo-d-03",
+        "title": "Old Kingdom reliefs",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop03.txt"
+      },
+      {
+        "id": "cairo-d-04",
+        "title": "The Scribes",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop04.txt"
+      },
+      {
+        "id": "cairo-d-05",
+        "title": "Middle Kingdom statues",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop05.txt"
+      },
+      {
+        "id": "cairo-d-06",
+        "title": "Akhenaten & the Aten",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop06.txt"
+      },
+      {
+        "id": "cairo-d-07",
+        "title": "Amarna family reliefs",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop07.txt"
+      },
+      {
+        "id": "cairo-d-08",
+        "title": "Everyday life objects",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop08.txt"
+      },
+      {
+        "id": "cairo-d-09",
+        "title": "Tutankhamun’s mask",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop09.txt"
+      },
+      {
+        "id": "cairo-d-10",
+        "title": "Tutankhamun’s nested coffins",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop10.txt"
+      },
+      {
+        "id": "cairo-d-11",
+        "title": "Canopic jars",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop11.txt"
+      },
+      {
+        "id": "cairo-d-12",
+        "title": "Animal mummies",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop12.txt"
+      },
+      {
+        "id": "cairo-d-13",
+        "title": "Royal mummies",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop13.txt"
+      },
+      {
+        "id": "cairo-d-14",
+        "title": "Unfinished statues",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop14.txt"
+      },
+      {
+        "id": "cairo-d-15",
+        "title": "Exit hall reflection",
+        "location": "Cairo",
+        "lat": 30.047503,
+        "lng": 31.233702,
+        "walkFromPrevMin": 1,
+        "tags": [
+          "walk"
+        ],
+        "tone": "fun",
+        "cheapEats": {
+          "nearby": [
+            "Street snack nearby",
+            "Tea/coffee stop close by"
+          ],
+          "budgetHint": "Keep it simple and local—your best stories come with small bites."
+        },
+        "funFacts": [
+          "This stop is chosen for walkability and story momentum.",
+          "Pause, look up, and let the place speak before the facts do."
+        ],
+        "scriptFile": "scripts/cairo_tourD_stop15.txt"
+      }
+    ],
+    "city": "Cairo",
+    "country": "Egypt"
   }
 ]
