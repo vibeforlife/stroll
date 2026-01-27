@@ -1,0 +1,18 @@
+{
+  "Tours": {
+    "A": "7 stops, ~2 hours, narration 5\u20137 min each",
+    "B": "6 stops, ~2 hours, narration 5\u20137 min each",
+    "C": "6 stops, ~2 hours, narration 5\u20137 min each",
+    "D": "6 stops, ~2 hours, narration 5\u20137 min each"
+  },
+  "Validation": [
+    "Uninterrupted emotive narration",
+    "Central irreversible historical moment",
+    "Named humans or communities",
+    "Human stakes present",
+    "Architectural / natural description present",
+    "Cultural consequence stated",
+    "Closing 'If you remember one thing\u2026' present",
+    "No bullets, no summaries"
+  ]
+}
